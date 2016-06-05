@@ -48,10 +48,5 @@ net.addLayer('relu_06', dagnn.ReLU(), {'x16'}, {'x17'}, {});
 %Initialise random parameters
 net.initParams();
 
-
 %Visualize Network
-net.print({'x01', [64 64 3]}, 'all', true, 'format', 'dot')
-
-
-
-
+net.print({'x01', [64 64 3]})
