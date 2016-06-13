@@ -7,7 +7,7 @@ poolBlock = dagnn.Pooling('poolSize', [2 2], 'stride', 2);
 
 
 % Setup MatConvNet
-run  /Users/Leonard/Documents/MATLAB/TUM/MLMI/matconvnet/matlab/vl_setupnn
+run  /Users/Leonard/Documents/MATLAB/TUM/matconvnet/matlab/vl_setupnn
 % Create DAGNN object
 net = dagnn.DagNN();
 

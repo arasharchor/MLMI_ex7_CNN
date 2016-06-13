@@ -3,7 +3,7 @@ close all
 clc
 
 % setup MatConvNet
-run  /Users/Leonard/Documents/MATLAB/TUM/MLMI/matconvnet/matlab/vl_setupnn
+run  /Users/Leonard/Documents/MATLAB/TUM/matconvnet/matlab/vl_setupnn
 
 % load the ResNet-50 CNN
 net = dagnn.DagNN.loadobj(load('imagenet-resnet-50-dag.mat')) ;

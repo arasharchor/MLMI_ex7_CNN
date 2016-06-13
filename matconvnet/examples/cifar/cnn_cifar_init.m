@@ -85,4 +85,3 @@ switch lower(opts.networkType)
   otherwise
     assert(false) ;
 end
-

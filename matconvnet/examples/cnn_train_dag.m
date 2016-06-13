@@ -36,7 +36,7 @@ if isempty(opts.val), opts.val = find(imdb.images.set==2) ; end
 if isnan(opts.train), opts.train = [] ; end
 
 % -------------------------------------------------------------------------
-%                                                            Initialization
+%                           Initialization
 % -------------------------------------------------------------------------
 
 evaluateMode = isempty(opts.train) ;
@@ -50,7 +50,7 @@ state.getBatch = getBatch ;
 stats = [] ;
 
 % -------------------------------------------------------------------------
-%                                                        Train and validate
+%                          Train and validate
 % -------------------------------------------------------------------------
 
 modelPath = @(ep) fullfile(opts.expDir, sprintf('net-epoch-%d.mat', ep));
